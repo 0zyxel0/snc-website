@@ -1,7 +1,7 @@
 # Use the official lightweight Node.js 12 image.
 # https://hub.docker.com/_/node
 # Choose the Server and Node Version
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Create and change to the app directory.
 RUN mkdir -p /usr/src/myapp
@@ -16,7 +16,7 @@ RUN apk add git
 COPY . .
 
 # Install production dependencies.
-RUN yarn install
+RUN npm install
 
 # Assign ENV variables
 # Bind the App to any IP
@@ -25,7 +25,7 @@ ENV NITRO_PORT=3000
 ENV NITRO_HOST=0.0.0.0
 
 # Build the production Version of the Application
-RUN yarn build
+RUN npm build
 
 # Expose the Port Outside the container to the localhost
 EXPOSE 3000
