@@ -1,5 +1,3 @@
-# Use the official lightweight Node.js 12 image.
-# https://hub.docker.com/_/node
 # Choose the Server and Node Version
 FROM node:20-alpine
 
@@ -25,7 +23,7 @@ ENV NITRO_PORT=3000
 ENV NITRO_HOST=0.0.0.0
 
 # Build the production Version of the Application
-RUN npm build
+RUN npm run build
 
 # Expose the Port Outside the container to the localhost
 EXPOSE 3000
