@@ -55,7 +55,7 @@
           </v-col>
           <v-col cols="12" xl="5" md="4" sm="5">
             <v-img
-              src="img/snc-logo.png"
+              src="img/snc-logo-updated.png"
               class="d-none d-sm-flex mx-auto logo-img"
               width="450"
             ></v-img>
