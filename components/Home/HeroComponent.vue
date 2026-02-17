@@ -4,7 +4,7 @@
         <v-container>
           <v-row justify="center">
             <v-col cols="12" class="text-center">
-              <v-img src="img/snc-logo.png" class="mx-auto hero-logo"></v-img>
+              <v-img src="img/snc-logo-updated.png" class="mx-auto hero-logo"></v-img>
               <h2 class="welcome-text">Welcome to</h2>
               <h1 class="title-text">St. Nicolas College</h1>
               <p class="moto-text">
@@ -155,7 +155,7 @@ export default {
       0 0 20px #0bca25a8, 0 0 2px #fed128, 2px 2px 2px #11e22da8;
     color: #ffffff;
   }
-  80% {
+  /* 80% {
     text-shadow: 0 0 2px #11e22da8, 0 0 5px #11e22da8, 0 0 5px #11e22da8,
       0 0 5px #11e22da8, 0 0 2px #11e22da8, 4px 4px 2px #11e22da8;
     color: white;
@@ -164,7 +164,7 @@ export default {
     text-shadow: 0 0 2px #0a9c1ea8, 0 0 5px #0a9c1ea8, 0 0 5px #0a9c1ea8,
       0 0 5px #0a9c1ea8, 0 0 2px #0a9c1ea8, 4px 4px 2px #11e22da8;
     color: white;
-  }
+  } */
 }
 
 @media screen and (max-width: 450px) {

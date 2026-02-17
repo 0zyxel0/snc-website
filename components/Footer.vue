@@ -29,7 +29,7 @@
               <v-col cols="6">8:00am - 5:00pm</v-col>
               <v-col cols="12"><hr /></v-col>
               <v-col cols="6">Saturday</v-col>
-              <v-col cols="6">9:30am - 12:30pm</v-col>
+              <v-col cols="6">8:00am - 12:00pm</v-col>
               <v-col cols="12"><hr /></v-col>
               <v-col cols="6">Sunday</v-col> <v-col cols="6">Closed</v-col>
               <v-col cols="12"><hr /></v-col>
